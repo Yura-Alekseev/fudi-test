@@ -1,8 +1,12 @@
-.content-section__wrapper {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
+.header {
+  z-index: 20;
+
+  .content-section__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
 }
 
 .header__link-logo {
@@ -31,13 +35,10 @@
 }
 
 .header__authorization-link {
-  font-family: "Lato Bold", sans-serif;
+  font-family: var(--main-font-family);
   font-size: 14px;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: var(--main-font-color);
   text-transform: uppercase;
   text-decoration: none;
-  -webkit-box-shadow: -1px 1px 40px 0 rgba(0,0,0,0.55);
-  -moz-box-shadow: -1px 1px 40px 0 rgba(0,0,0,0.55);
-  box-shadow: -1px 1px 40px 0 rgba(0,0,0,0.55);
 }
