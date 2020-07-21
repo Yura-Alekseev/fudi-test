@@ -8,7 +8,33 @@
     <title>Fudi</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body style="background: black">
+<header class="content-section header">
+    <div class="content-section__wrapper">
+        <a class="header__link-logo" href="/">
+            <img class="header__logo" src="img/header/logo.png" alt="logo">
+        </a>
+
+        <div class="header__wrapper">
+            <ul class="header__authorization">
+                <li class="header__authorization-item">
+                    <a class="header__authorization-link" href="/">Log In</a>
+                </li>
+
+                <li class="header__authorization-item">
+                    <a class="header__authorization-link" href="/">Sign Up</a>
+                </li>
+            </ul>
+
+            <div class="burger">
+                <input class="burger__toggle" id="burger__toggle" type="checkbox">
+                <label class="burger__btn" for="burger__toggle">
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
 
 <script src="js/script.js"></script>
 </body>
