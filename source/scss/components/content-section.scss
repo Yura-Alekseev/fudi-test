@@ -12,3 +12,10 @@
   width: 74%;
   min-width: 980px;
 }
+
+@media (max-width: 1023px) {
+  .content-section__wrapper {
+    width: 88%;
+    min-width: unset;
+  }
+}

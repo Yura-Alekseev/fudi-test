@@ -78,3 +78,21 @@
     letter-spacing: 2px;
   }
 }
+
+@media (max-width: 1023px) {
+  .cuisines {
+    padding-top: 60px;
+
+    .separator-line {
+      margin-bottom: 30px;
+    }
+  }
+
+  .cuisines__item {
+    width: 50%;
+  }
+
+  .cuisines__item-title {
+    font-size: 32px;
+  }
+}

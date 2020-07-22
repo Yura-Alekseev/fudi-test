@@ -28,3 +28,13 @@
   font-size: 16px;
   color: var(--secondary-font-color);
 }
+
+@media (max-width: 1023px) {
+  .facts__title {
+    font-size: 28px;
+  }
+
+  .facts__subtitle {
+    font-size: 14px;
+  }
+}

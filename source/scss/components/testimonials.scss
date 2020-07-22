@@ -65,8 +65,6 @@
 }
 
 .swiper-pagination-bullet-active {
-  width: 10px;
-  height: 10px;
   background: #ffffff!important;
 }
 
@@ -78,4 +76,34 @@
   border-radius: 100%;
   background: #ffffff!important;
   opacity: 0.2;
+}
+
+@media (max-width: 1023px) {
+  .testimonials {
+    height: 460px;
+    padding: 60px 0;
+  }
+
+  .testimonials__bg {
+    width: 100%;
+  }
+
+  .testimonials__img-wrapper {
+    margin-bottom: 16px;
+  }
+
+  .testimonials__text {
+    margin-bottom: 16px;
+    font-size: 26px;
+  }
+
+  .testimonials__author {
+    font-size: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 8px!important;
+    height: 8px!important;
+    margin: 0 4px!important;
+  }
 }
