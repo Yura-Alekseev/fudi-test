@@ -43,3 +43,24 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 767px) {
+  .footer {
+    height: 100px;
+
+    .content-section__wrapper {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .footer__rights {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .footer__designer {
+    font-size: 12px;
+  }
+}

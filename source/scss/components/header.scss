@@ -42,3 +42,23 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+@media (max-width: 767px) {
+  .header .content-section__wrapper {
+    height: 80px;
+  }
+
+  .header__logo {
+    width: 60px;
+  }
+
+  .header__authorization {
+    display: none;
+  }
+
+  /*
+    Ссылки для авторизации нужно перенести в навигацию,
+    а при нажатии на бургер меню появляется попап с навигацией и этими ссылками,
+    но т.к. я не знаю какие есть еще страницы, то не сделал этот попап
+  */
+}

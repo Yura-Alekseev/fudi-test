@@ -115,3 +115,33 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .banner {
+    margin: -80px 0 0;
+  }
+
+  .banner__title {
+    font-size: 18px;
+  }
+
+  .banner__subtitle {
+    font-size: 56px;
+  }
+
+  .banner__link {
+    width: 124px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    border: 2px solid #ffffff;
+  }
+
+  .banner__text {
+    font-size: 8px;
+
+    a {
+      font-size: 8px;
+    }
+  }
+}

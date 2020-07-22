@@ -96,3 +96,31 @@
     font-size: 32px;
   }
 }
+
+@media (max-width: 767px) {
+  .cuisines {
+    padding-top: 40px;
+
+    .separator-line {
+      margin-bottom: 30px;
+    }
+  }
+
+  .cuisines__item {
+    width: 50%
+  }
+
+  .cuisines__item-title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cuisines__item {
+    width: 100%
+  }
+
+  .cuisines__item-title {
+    font-size: 34px;
+  }
+}

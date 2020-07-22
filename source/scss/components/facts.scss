@@ -38,3 +38,26 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 767px) {
+  .facts {
+    padding: 40px 0;
+  }
+
+  .facts .content-section__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .facts__item {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .facts__title {
+    margin-bottom: 6px;
+  }
+}
