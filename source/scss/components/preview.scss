@@ -18,7 +18,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin-top: 76px;
-  min-width: 40%;
+  min-width: 34%;
 }
 
 .preview__title {
@@ -28,13 +28,6 @@
   line-height: 1;
   color: var(--secondary-font-color);
   text-transform: uppercase;
-}
-
-.preview__separator {
-  width: 88px;
-  height: 1px;
-  margin-bottom: 10px;
-  background: #f57365;
 }
 
 .preview__text {

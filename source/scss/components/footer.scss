@@ -1,0 +1,31 @@
+.footer {
+  height: 92px;
+  border-top: 1px solid #e2e2e2;
+  background: #f7f7f7;
+
+  .content-section__wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.footer__rights {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  color: #8b8b8b;
+}
+
+.footer__designer {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #8b8b8b;
+  text-transform: uppercase;
+
+  a {
+    font-family: "Lato Regular", sans-serif;
+    color: var(--secondary-font-color);
+    text-decoration: none;
+  }
+}

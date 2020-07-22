@@ -1,0 +1,81 @@
+.testimonials {
+  background: #4a3949;
+  height: 490px;
+  padding: 80px 0;
+}
+
+.testimonials__bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.testimonials__img-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 106px;
+  height: 106px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 5px solid #948b94;
+  border-radius: 50%;
+}
+
+.testimonials__img {
+  position: absolute;
+  margin: auto;
+}
+
+.testimonials__text {
+  width: 80%;
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: "Lato Hairline", sans-serif;
+  font-size: 30px;
+  line-height: 1.4;
+  color: var(--main-font-color);
+}
+
+.testimonials__author {
+  font-family: "Lato HairlineItalic", sans-serif;
+  font-size: 18px;
+  color: var(--main-font-color);
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+  bottom: 0!important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 10px;
+  height: 10px;
+  background: #ffffff!important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px!important;
+  height: 10px!important;
+  margin: 0 5px!important;
+  display: inline-block;
+  border-radius: 100%;
+  background: #ffffff!important;
+  opacity: 0.2;
+}
