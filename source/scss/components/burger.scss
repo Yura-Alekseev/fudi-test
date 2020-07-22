@@ -1,0 +1,52 @@
+.burger {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger__toggle {
+  display: none;
+}
+
+.burger__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 14px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.burger__btn > span,
+.burger__btn > span::before,
+.burger__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+}
+.burger__btn > span::before {
+  content: '';
+  top: -4px;
+}
+.burger__btn > span::after {
+  content: '';
+  top: 4px;
+}
+
+.burger__toggle:checked ~ .burger__btn > span {
+  transform: rotate(45deg);
+}
+
+.burger__toggle:checked ~ .burger__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+.burger__toggle:checked ~ .burger__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}

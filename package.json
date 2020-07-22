@@ -1,0 +1,26 @@
+{
+  "name": "fudi-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yura-Alekseev/fudi-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yura-Alekseev/fudi-test/issues"
+  },
+  "homepage": "https://github.com/Yura-Alekseev/fudi-test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

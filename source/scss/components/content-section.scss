@@ -1,0 +1,21 @@
+.content-section {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.content-section__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 74%;
+  min-width: 980px;
+}
+
+@media (max-width: 1023px) {
+  .content-section__wrapper {
+    width: 88%;
+    min-width: unset;
+  }
+}
